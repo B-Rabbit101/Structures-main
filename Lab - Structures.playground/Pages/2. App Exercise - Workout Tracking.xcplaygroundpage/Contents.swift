@@ -7,7 +7,13 @@
  
  Create a `RunningWorkout` struct. It should have variables properties for `distance`, `time`, and `elevation`. All three properties should have default values of 0.0.
  */
+struct RunningWorkout{
+var distance = 0.0
+var time = 0.0
+var elevation = 0.0
+}
 
+var firstRun = RunningWorkout(distance: 0.0, 
 
 /*:
  Create a variable instance of `RunningWorkout` called `firstRun` without supplying any arguments. Print out all three properties of `firstRun`. This is a good example of when using default values is appropriate, seeing as all running workouts start with a distance, time, and elevation change of 0.
