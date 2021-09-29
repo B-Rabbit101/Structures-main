@@ -33,5 +33,4 @@ struct Book{
  */
 var favoriteBook = Book(title: "Diary of a Wimpy Kid", author: "Jeff Kinney", pages: 221, price: 12)
 print(favoriteBook)
-
 //: page 1 of 10  |  [Next: App Exercise - Workout Tracking](@next)
